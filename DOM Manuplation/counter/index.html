@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 30px;
+        }
+        .wrapper {
+            background-color: purple;
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 30px;
+        }
+        .wrapper button {
+            padding: 10px 20px;
+        }
+        ul {
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h3>Counter</h3>
+        <h1 id="counter">0</h1>
+        <div>
+            <button id="reset-btn">Rest</button>
+            <button id="save-btn">Save</button>
+            <button id="add-btn">Add</button>
+        </div>
+    </div>
+    <div>
+        <h3>Saved Data</h3>
+        <ul></ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

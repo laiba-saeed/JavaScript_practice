@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        .error {
+                border: 1px solid crimson;
+        }
+    </style>
+</head>
+<body>
+    <h1>Form Validation</h1>
+    <form name="signupform">
+        <div>
+            <label for="">Email</label><br>
+            <input type="text" name="email" placeholder="Enter Email">
+        </div>
+        <div>
+            <label for="">Password</label><br>
+            <input type="password" name="password1" placeholder="Enter Password">
+        </div>
+        <div>
+            <label for="">Confirm Password</label><br>
+            <input type="password" name="password2" placeholder="Confirm Password">
+        </div>
+        <div>
+            <label for="">Mobile Number</label><br>
+            <input type="number" name="mobile" placeholder="Enter Mobile Number">
+        </div>
+        <button type="submit">Sign Up</button>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
